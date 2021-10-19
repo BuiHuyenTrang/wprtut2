@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lora', sans-serif;
+}
+
+header {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./Materials/header.jpg');
+    background-repeat: no-repeat;
+    height: 753px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+nav {
+    padding: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#cs193x {
+    position: relative;
+    font-size: 40px;
+    color: white;
+}
+
+#menu {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-80%);
+    transform: translateX(150%);
+    color: white;
+}
+   
+  
+  #menu li {
+    display: inline-block;
+    margin: 15px;
+  }
+
+  a:hover{
+    border-color: white;
+    border-style: solid;
+  }
+      
+  
+  
+ 
